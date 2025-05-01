@@ -45,7 +45,7 @@ function App() {
     setPrediction(null);
 
     try {
-      const response = await fetch('https://ds-backend-08bb.onrender.com/predict', {
+      const response = await fetch('https://ds-backend-e4vo.onrender.com/predict', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
