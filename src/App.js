@@ -85,7 +85,7 @@ function App() {
           ? [
               prediction,
               parseFloat(formData.wind_mph) || 0,
-              ((parseFloat(formData.pressure_mb) - 950) / 100) * 100 || 0,
+              ((parseFloat(formData.pressure_mb) - 900) / 100) * 100 || 0,
               parseFloat(formData.humidity) || 0,
               parseFloat(formData.cloud) || 0,
               parseFloat(formData.visibility_km) || 0,
